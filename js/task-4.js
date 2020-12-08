@@ -1,8 +1,8 @@
 const formatString = function(string) {
-  const letters = string.split('');
+  const letters = string;
 
   if (letters.length > 40) {
-    return `${letters.slice(0, 40).join('')}...`;
+    return `${letters.slice(0, 40)}...`;
   }
 
   return string;
